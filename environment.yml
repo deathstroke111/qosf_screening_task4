@@ -1,0 +1,12 @@
+name: qosf
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.6.*
+  - jupyterlab
+  - pandas>1.0.0
+  #pip installed following pakages after running conda
+  #   qiskit
+  #   matplotlib
+  #   pylatexenc
