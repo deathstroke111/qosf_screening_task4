@@ -11,3 +11,5 @@ dependencies:
   #   matplotlib
   #   pylatexenc
   #   pyfiglet
+  #   nbconvert // not using
+  #   latex     // not using
