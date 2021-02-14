@@ -3,6 +3,8 @@
 $$\newcommand{\ket}[1]{\left|{#1}\right\rangle}$$
 $$\newcommand{\bra}[1]{\left\langle{#1}\right|}$$
 
+>IN CASE YOU CAN'T RUN THE PACKAGE, PLEASE CHECK THE SAMPLE OUTPUT IN sample_output.ipynb 
+>PLEASE OPEN THE FILE QAOA_maxcut.ipynb to render the README instructions properly
 
 >INSTRUCTIONS TO USE THE PACKAGE
 >
@@ -20,8 +22,6 @@ $$\newcommand{\bra}[1]{\left\langle{#1}\right|}$$
     - -i ITER, --iter ITER     Set the number of iterations for optimal gamma and beta
     - -g GRAPH, --graph GRAPH  Select the type of graph
 
-
->IN CASE YOU CAN'T RUN THE PACKAGE, PLEASE CHECK THE SAMPLE OUTPUT IN sample_output.ipynb 
 
 This repository contains the solution of the task4 of QOSF mentorship program.
 
