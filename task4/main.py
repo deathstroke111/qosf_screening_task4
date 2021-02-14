@@ -7,14 +7,15 @@ from Edge import Edge
 from matplotlib import pyplot as plt
 import networkx as nx
 
+from _version import __version__
+import pyfiglet
+
 parser = argparse.ArgumentParser(description='QOSF mentorship program task 4')
 parser.add_argument('-s', '--shots', help="Set the number of shots", type=int, default=512)
 parser.add_argument('-d', '--depth', help="Set the depth of the Quantum circuit", type=int, default=2)
 parser.add_argument('-n', '--num', help="Set the number of qubits", type=int, default=3)
 parser.add_argument('-i', '--iter', help="Set the number of iterations for optimal gamma and beta", type=int, default=1000)
 parser.add_argument('-g', '--graph', help="Select the type of graph" , type=str, default="cool_graph")
-
-
 
 def main():
     args = parser.parse_args()
@@ -49,4 +50,6 @@ def main():
     print("Executed successfully")
     
 if __name__ == "__main__":
+    banner_text = "MAXCUT QAOA\n Package version: "+ __version__
+    print(pyfiglet.figlet_format(banner_text))
     main()
